@@ -6,3 +6,4 @@ Check out the GitHub website, create an account and find out how it works. Follo
 
 Day 2: Fork SummerOfCode
 Fork the SummerOfCode project. Edit the file README.md to improve the instructions for SummerOfCode. Find out how Markdown syntax works. Submit a pull request via the GitHub web interface.
+[Fork a repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
