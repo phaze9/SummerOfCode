@@ -34,6 +34,6 @@ If you get stuck: Ask Google, play around until it works or find a tutor.
     git remote add upstream https://github.com/phaze9/SummerOfCode.git
     git pull upstream master
     ```
-  - Push from Source Control tab
+  - Push from Source Control tab (or Synchronize) 
 - Create a pull request for README.md in VisualStudio 
   - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
