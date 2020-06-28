@@ -16,14 +16,17 @@ Fork the SummerOfCode project. Edit the file README.md to improve the instructio
 [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 [Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
-## Day 3: VisualStudio Code
-- Install [VisualStudio Code](https://code.visualstudio.com/)
-  - Install the GitHub plugin [Connect to GitHub](https://visualstudio.github.com)
+## Day 3: Visual Studio Code
+- Install [Visual Studio Code](https://code.visualstudio.com/)
+  - Install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+    - From the Extensions tab within Visual Studio
   - [Install Git](https://git-scm.com/download/)
 - Setup the SummerOfCode project from your GitHub fork
-  - Create a new folder Projects under your user directory
-  - Clone Repository from GitHub into Projects
+  - Create a new folder "Projects" under your user directory
+  - Clone repository from GitHub into Projects under Source Control tab
 - Pull upstream changes from phaze9/SummerOfCode
+  - In a shell: git remote add upstream https://github.com/phaze9/SummerOfCode.git
   - [How to pull upstream changes](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork)
    - git pull https://github.com/phaze9/SummerOfCode.git master
 - Create a pull request for README.md in VisualStudio 
+  - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
