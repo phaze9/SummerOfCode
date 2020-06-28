@@ -4,7 +4,7 @@
 Let's learn how to code! On GitHub you can develop lot's of fun stuff, even games! It is easy for kids to learn coding, so get ready 🚀
 If you get stuck: Ask Google, play around until it works or find a tutor.
 
-Day 1, Fri Jul 26 2020: GitHub
+Day 1: GitHub
 Check out the GitHub website, create an account and find out how it works. Follow phaze9. Install the GitHub app.
 
 [GitHub](https://github.com)
@@ -17,11 +17,13 @@ Fork the SummerOfCode project. Edit the file README.md to improve the instructio
 [Creating a pull request from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
 ## Day 3: VisualStudio Code
-- Install VisualStudio Code
+- Install [VisualStudio Code](https://code.visualstudio.com/)
   - Install the GitHub plugin [Connect to GitHub](https://visualstudio.github.com)
-  - Install Git
+  - [Install Git](https://git-scm.com/download/)
 - Setup the SummerOfCode project from your GitHub fork
   - Create a new folder Projects under your user directory
   - Clone Repository from GitHub into Projects
 - Pull upstream changes from phaze9/SummerOfCode
-- Create a pull request for README.md in VisualStudio
+  - [How to pull upstream changes](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork)
+   - git pull https://github.com/phaze9/SummerOfCode.git master
+- Create a pull request for README.md in VisualStudio 
