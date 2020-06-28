@@ -25,8 +25,10 @@ Fork the SummerOfCode project. Edit the file README.md to improve the instructio
   - Create a new folder "Projects" under your user directory
   - Clone repository from GitHub into Projects under Source Control tab
 - Pull upstream changes from phaze9/SummerOfCode
-  - In a shell: git remote add upstream https://github.com/phaze9/SummerOfCode.git
+  - Open a Terminal, then type or copy
+    - cd ~/Projects/SummerOfCode 
+    - git remote add upstream https://github.com/phaze9/SummerOfCode.git
   - [How to pull upstream changes](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/merging-an-upstream-repository-into-your-fork)
-   - git pull https://github.com/phaze9/SummerOfCode.git master
+    - git pull https://github.com/phaze9/SummerOfCode.git master
 - Create a pull request for README.md in VisualStudio 
   - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
