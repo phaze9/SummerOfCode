@@ -70,3 +70,8 @@ A tiny bit more setup work and you're good to go.
     ```
     git config -l
     ```
+  - Download and install the LTS (long term support) version of [Node.js](https://nodejs.org/)
+  - Finally we will install the Angular CLI (command line interface) from a Terminal window
+    ```
+    npm install -g @angular/cli
+    ```
