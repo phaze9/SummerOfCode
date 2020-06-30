@@ -50,6 +50,23 @@ The terminal/shell is old but gold.
     ```
     git push
     ```
-- Edit the file README.md in VisualStudio
-- Create a pull request for README.md from the GitHub tab in VisualStudio
+- Edit the file README.md in Visual Studio Code
+- Create a pull request for README.md from the GitHub tab in Visual Studio
   - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
+
+## Day 5: Sharpen your Tools
+A tiny bit more setup work and you're good to go.  
+ - Tell git who you are
+   - Enter the following commands in a Terminal window
+   - Replace First Last by your first and last names
+    ```
+    git config --global user.name "First Last"
+    ```
+   - Replace my@email.com by the email address you used to sign up for GitHub
+    ```
+    git config --global user.email my@email.com
+    ```
+   - Verify the configuration
+    ```
+    git config -l
+    ```
