@@ -33,13 +33,23 @@ Serious development requires serious tools.
   
 ## Day 4: Terminal
 The terminal/shell is old but gold.
-- Pull upstream changes from phaze9/SummerOfCode
-  - Open a Terminal, then type or copy
-    ```  
-    cd ~/Projects/SummerOfCode 
+- Open a Terminal window, then  copy or type the commands listed below (text with gray background).
+- Change to the project directory
+    ```
+    cd ~/Projects/SummerOfCode
+    ```
+- Add the phaze9 version to your SummerOfCode repository
+    ```
     git remote add upstream https://github.com/phaze9/SummerOfCode.git
+    ```
+- Pull the latest changes from phaze9/SummerOfCode
+    ``` 
     git pull upstream master
     ```
-  - Push from Source Control tab (or Synchronize) 
-- Create a pull request for README.md in VisualStudio 
+- Apply the changes to your version on GitHub
+    ```
+    git push
+    ```
+- Edit the file README.md in VisualStudio
+- Create a pull request for README.md from the GitHub tab in VisualStudio
   - [Working with GitHub in VS Code](https://code.visualstudio.com/docs/editor/github)
