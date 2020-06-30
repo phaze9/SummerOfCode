@@ -73,7 +73,7 @@ A tiny bit more setup work and you're good to go.
   - Download and install the LTS (long term support) version of [Node.js](https://nodejs.org/)
   - Finally we will install the Angular CLI (command line interface) from a Terminal window
     ```
-    npm install -g @angular/cli
+    sudo npm install -g @angular/cli
     ```
   - Verify the installation by listing the available Angular commands
     ```
