@@ -22,12 +22,14 @@ The GitHub website is great for small changes.
 ## Day 3: Visual Studio Code
 Serious development requires serious tools.
 - Install [Visual Studio Code](https://code.visualstudio.com/)
-  - Install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-    - From the Extensions tab within Visual Studio
-  - [Install Git](https://git-scm.com/download/)
+- Install the [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  - From the Extensions tab on the left side of Visual Studio
+  - You should now have a new GitHub tab in the Visual Studio sidebar
+- [Install Git](https://git-scm.com/download/)
+  - The Source Control tab in the sidebar should no longer complain that Git is not installed
 - Setup the SummerOfCode project from your GitHub fork
-  - Create a new folder "Projects" under your user directory
-  - Clone repository from GitHub into Projects under Source Control tab
+  - Create a new folder "Projects" under your user directory in Explorer or Finder
+  - Clone your repository from GitHub into Projects under the Source Control tab
   
 ## Day 4: Terminal
 The terminal/shell is old but gold.
