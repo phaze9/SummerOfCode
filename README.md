@@ -75,3 +75,7 @@ A tiny bit more setup work and you're good to go.
     ```
     npm install -g @angular/cli
     ```
+  - Verify the installation by listing the available Angular commands
+    ```
+    ng
+    ```
