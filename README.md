@@ -105,7 +105,8 @@ Angular is a great way to conquer the web.
    ```
  - Now open the heroes folder in Visual Studio Code
  - [Make changes to the application](https://angular.io/tutorial/toh-pt0#make-changes-to-the-application)
-   - Observe how the app changes in you web browser after each of the following steps 
+   - Observe how the app changes in your web browser after each of the following steps
+     - Don’t forget to save the changes in Visual Studio
    - [Change the application title](https://angular.io/tutorial/toh-pt0#change-the-application-title)
    - [Add application styles](https://angular.io/tutorial/toh-pt0#add-application-styles)
      - Our style file is called styles.scss
