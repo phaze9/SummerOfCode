@@ -92,7 +92,7 @@ Angular is a great way to conquer the web.
    ng new heroes
    ```
    - Would you like to add Angular routing? (y/N) 
-     - Enter/Return to confirm (We will add routing later)
+     - Enter / Return to confirm (We will add routing later)
    - Which stylesheet format would you like to use?
      - Use arrow keys to select SCSS, confirm with Enter
  - Change to the application folder
@@ -105,5 +105,8 @@ Angular is a great way to conquer the web.
    ```
  - Now open the heroes folder in Visual Studio Code
  - [Make changes to the application](https://angular.io/tutorial/toh-pt0#make-changes-to-the-application)
- - Observe how things change in you web browser
+   - Observe how the app changes in you web browser after each of the following steps 
+   - [Change the application title](https://angular.io/tutorial/toh-pt0#change-the-application-title)
+   - [Add application styles](https://angular.io/tutorial/toh-pt0#add-application-styles)
+     - Our style file is called styles.scss
  
