@@ -91,8 +91,10 @@ Angular is a great way to conquer the web.
    ```
    ng new heroes
    ```
- - The ng new command prompts you for information about features to include in the initial app project.
-   - Accept the defaults by pressing the Enter or Return key.
+   - Would you like to add Angular routing? (y/N) 
+     - Enter/Return to confirm (We will add routing later)
+   - Which stylesheet format would you like to use?
+     - Use arrow keys to select SCSS, confirm with Enter
  - Change to the application folder
    ```
    cd heroes
