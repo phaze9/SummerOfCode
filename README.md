@@ -16,7 +16,8 @@ GitHub is where developers meet.
 The GitHub website is great for small changes.
 - [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the SummerOfCode project.
 - Edit the file README.md to improve the instructions for SummerOfCode. 
-  -  Find out how [Markdown](https://guides.github.com/features/mastering-markdown/) syntax works.
+  - Find out how [Markdown](https://guides.github.com/features/mastering-markdown/) syntax works.
+  - [Markdown Emojis](https://gist.github.com/rxaviers/7360908)
 - Submit a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for your changes from the GitHub web interface.
 
 ## Day 3: Visual Studio Code :floppy_disk:
@@ -101,6 +102,6 @@ Angular is a great way to conquer the web.
    ng serve --open
    ```
  - Now open the heroes folder in Visual Studio Code
- - Make changes to the application https://angular.io/tutorial/toh-pt0#make-changes-to-the-application
+ - [Make changes to the application](https://angular.io/tutorial/toh-pt0#make-changes-to-the-application)
  - Observe how things change in you web browser
  
