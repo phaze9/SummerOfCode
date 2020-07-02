@@ -115,4 +115,5 @@ Angular is a great way to conquer the web.
 Day 7: Back to GitHub :arrow_backward:
  - Open the Source Control tab in Visual Studio
  - Enter a commit message: Changed application title and styles
-   - Hit Return
+ - Click the :heavy_plus_sign: button next to the three files you changed yesterday
+ - Commit the changes using the :heavy_check_mark: button
