@@ -112,3 +112,7 @@ Angular is a great way to conquer the web.
    - [Add application styles](https://angular.io/tutorial/toh-pt0#add-application-styles)
      - Our style file is called styles.scss
  
+Day 7: Back to GitHub :arrow_backward:
+ - Open the Source Control tab in Visual Studio
+ - Enter a commit message: Changed application title and styles
+   - Hit Return
