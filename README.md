@@ -105,6 +105,7 @@ Angular is a great way to conquer the web.
    ng serve --open
    ```
  - Now open the heroes folder in Visual Studio Code
+   - Select File -> Open from the menu, then choose the heroes folder
  - [Make changes to the application](https://angular.io/tutorial/toh-pt0#make-changes-to-the-application)
    - Observe how the app changes in your web browser after each of the following steps
      - Don’t forget to save the changes in Visual Studio
@@ -116,8 +117,8 @@ Angular is a great way to conquer the web.
 Publish your work on GitHub.
  - Open the Source Control tab in Visual Studio
    - Enter a commit message: Changed application title and styles
-   - Click the :heavy_plus_sign:  button next to the three files you changed yesterday
-   - Commit the changes using the :heavy_check_mark:  button
+   - Click the :heavy_plus_sign: button next to the three files you changed yesterday
+   - Commit the changes using the :heavy_check_mark: button
  - Click on the three dots icon on the top right of the Source Control tab
    - Select Publish Branch...
    - Hit Return to publish to a new heroes repository on your GitHub
