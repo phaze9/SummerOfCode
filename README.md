@@ -129,3 +129,17 @@ Publish your work on GitHub.
    - Press OK
  - Now open your [GitHub](https://www.github.com/) in the browser
    - Click on Repositories and look at the contents of your new private heroes repo
+ - Read the instructions for your heroes app on GitHub
+ - Run the following commands in a Terminal and watch what they do
+   ```
+   ng build
+   ```
+   ```
+   ng test
+   ```
+   ```
+   ng e2e
+   ```
+   ```
+   ng serve --open
+   ```
