@@ -143,6 +143,7 @@ Publish your work on GitHub and run the tests.
      ```
      ng test
      ```
+     - Press Ctrl-C in the Terminal to stop
    - Run the end-to-end tests
      ```
      ng e2e
