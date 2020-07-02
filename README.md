@@ -131,15 +131,23 @@ Publish your work on GitHub.
    - Click on Repositories and look at the contents of your new private heroes repo
  - Read the instructions for your heroes app on GitHub
  - Run the following commands in a Terminal and watch what they do
-   ```
-   ng build
-   ```
-   ```
-   ng test
-   ```
-   ```
-   ng e2e
-   ```
-   ```
-   ng serve --open
-   ```
+   - Always change to your application folder first
+     ```
+     cd ~/Projects/heroes
+     ```
+   - Build your application
+     ```
+     ng build
+     ```
+   - Run the unit tests
+     ```
+     ng test
+     ```
+   - Run the end-to-end tests
+     ```
+     ng e2e
+     ```
+   - Start the application like we did yesterday
+     ```
+     ng serve --open
+     ```
