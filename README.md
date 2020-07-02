@@ -114,7 +114,7 @@ Angular is a great way to conquer the web.
      - Our style file is called styles.scss
  
 ## Day 7: Back to GitHub :arrow_backward:
-Publish your work on GitHub.
+Publish your work on GitHub and run the tests.
  - Open the Source Control tab in Visual Studio
    - Enter a commit message: Changed application title and styles
    - Click the :heavy_plus_sign: button next to the three files you changed yesterday
