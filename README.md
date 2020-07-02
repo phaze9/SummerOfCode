@@ -112,8 +112,19 @@ Angular is a great way to conquer the web.
    - [Add application styles](https://angular.io/tutorial/toh-pt0#add-application-styles)
      - Our style file is called styles.scss
  
-Day 7: Back to GitHub :arrow_backward:
+## Day 7: Back to GitHub :arrow_backward:
+Publish your work on GitHub.
  - Open the Source Control tab in Visual Studio
- - Enter a commit message: Changed application title and styles
- - Click the :heavy_plus_sign: button next to the three files you changed yesterday
- - Commit the changes using the :heavy_check_mark: button
+   - Enter a commit message: Changed application title and styles
+   - Click the :heavy_plus_sign:  button next to the three files you changed yesterday
+   - Commit the changes using the :heavy_check_mark:  button
+ - Click on the three dots icon on the top right of the Source Control tab
+   - Select Publish Branch...
+   - Hit Return to publish to a new heroes repository on your GitHub
+   - In the list of files to include deselect the folowing
+     - .DS_Store (if it exists)
+     - .git
+     - node_modules
+   - Press OK
+ - Now open your [GitHub](https://www.github.com/) in the browser
+   - Click on Repositories and look at the contents of your new private heroes repo
