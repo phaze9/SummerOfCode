@@ -39,4 +39,5 @@ If you can't remember how to do something we already did, look it up in [last we
      expect(compiled.querySelector('h1').textContent).toContain('Tour of Heroes');  
      ```
  - Don't forget to commit and synchronize your changes
+   - Use the message: Fixed the tests
  
