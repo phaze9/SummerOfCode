@@ -8,4 +8,7 @@
      ```
      /dist
      ```
-     
+   - And save the file using Cmd/Ctrl-S
+   - Notice how you now only have one outgoing change, namely the file .gitignore
+ - Click the Synchronize Changes icon in the blue bar on the bottom left of Visual Studio
+  
