@@ -33,3 +33,5 @@ If you can't remember how to do something we already did, look it up in [last we
    - Change line 29 until the test succeeds when you rerun it
  - AppComponent > should render title
    - Change line 22 in the same file until the test succeeds
+ - Don't forget to commit and synchronize your changes
+ 
