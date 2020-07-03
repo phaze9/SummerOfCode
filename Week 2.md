@@ -10,5 +10,7 @@
      ```
    - And save the file using Cmd/Ctrl-S
    - Notice how you now only have one outgoing change, namely the file .gitignore
- - Click the Synchronize Changes icon in the blue bar on the bottom left of Visual Studio
-  
+ - Click Synchronize Changes :doughnut: in the blue bar on the bottom left of Visual Studio
+   - Open your heroes repository on the GitHub website
+   - Notice how all your changes are visible there
+ - Enter a commit message: Updated .gitignore
