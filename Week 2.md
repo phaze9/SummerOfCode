@@ -30,7 +30,9 @@ If you can't remember how to do something we already did, look it up in [last we
    - One test succeeded, two failed
  - AppComponent > should have as title 'heroes'
    - Open the file app.component.spec.ts in Visual Studio
-   - Change line 29 until the test succeeds when you rerun it
+   - Change line 29 until the test succeeds
+     - The test is rerun automatically when you save the file
+   - Look at the [changes we did at the end of day 6](https://angular.io/tutorial/toh-pt0#change-the-application-title) to get an idea what you need to fix 
  - AppComponent > should render title
    - Change line 22 in the same file until the test succeeds
  - Don't forget to commit and synchronize your changes
