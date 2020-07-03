@@ -17,7 +17,7 @@ If you can't remember how to do something we already did, look it up in [last we
    - Notice how all your changes from yesterday  are visible there
  - Go back to the Source Control tab in Visual Studio
    - Enter a commit message: Updated .gitignore
-   - Add the file .gitignore :plus:
+   - Add the file .gitignore :heavy_plus_sign:
    - And commit  
  - Yesterday you might have noticed that some tests we ran in the Terminal failed
    - We broke these when we changed the application two days ago
