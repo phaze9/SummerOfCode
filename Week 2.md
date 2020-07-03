@@ -1,4 +1,4 @@
-## Day 1: Git and Test
+## Day 1: Git and Test :hotsprings:
  - Open the Projects/heroes folder in Visual Studio Code
    - Open the Source Control tab
    - Note that many new files are listed
@@ -13,4 +13,7 @@
  - Click Synchronize Changes :doughnut: in the blue bar on the bottom left of Visual Studio
    - Open your heroes repository on the GitHub website
    - Notice how all your changes are visible there
- - Enter a commit message: Updated .gitignore
+ - Go back to the Source Control tab in Visual Studio
+   - Enter a commit message: Updated .gitignore
+   - Add the file .gitignore
+   - And commit  
