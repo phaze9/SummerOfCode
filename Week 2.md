@@ -27,3 +27,9 @@ If you can't remember how to do something we already did, look it up in [last we
      ```
      ng test
      ```
+   - One test succeeded, two failed
+ - AppComponent > should have as title 'heroes'
+   - Open the file app.component.spec.ts in Visual Studio
+   - Change line 29 until the test succeeds when you rerun it
+ - AppComponent > should render title
+   - Change line 22 in the same file until the test succeeds
