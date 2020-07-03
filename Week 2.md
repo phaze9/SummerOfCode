@@ -1,6 +1,7 @@
 If you can't remember how to do something we already did, look it up in [last week's curriculum](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md)!
 
 ## Day 1: Git and Test :hotsprings:
+Work with Git(Hub) and fix the tests.
  - Open the Projects/heroes folder in Visual Studio Code
    - Open the Source Control tab
    - Note that many new files are listed
