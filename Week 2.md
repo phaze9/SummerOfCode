@@ -34,6 +34,9 @@ If you can't remember how to do something we already did, look it up in [last we
      - The test is rerun automatically when you save the file
    - Look at the [changes we did at the end of day 6](https://angular.io/tutorial/toh-pt0#change-the-application-title) to get an idea what you need to fix 
  - AppComponent > should render title
-   - Change line 29 in the same file until the test succeeds
+   - Change line 29 in the same file to
+     ```
+     expect(compiled.querySelector('h1').textContent).toContain('Tour of Heroes');  
+     ```
  - Don't forget to commit and synchronize your changes
  
