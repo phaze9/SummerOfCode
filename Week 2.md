@@ -55,4 +55,13 @@ Run your heroes app manually and automatically.
    - Edit the file src/styles.scss
    - Change the color of the 'h1' element to one of the following
      ![CSS Color Names](https://miro.medium.com/max/1400/1*IUKKnAi_7ZjM91Fouh2yxA.png)
-   - e.g. 'tomato'
+ - Commit and synchronize your change 
+   - Briefly describe what you did in the commit message
+ - We can also run our app automatically to test it
+   - Stop the app by pressing Ctrl-C in the Terminal window
+   - Yesterday we ran the unit tests
+   - Today we will run the e2e (end-to-end) tests
+     ```
+     ng e2e
+     ```
+ 
