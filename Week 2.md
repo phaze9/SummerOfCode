@@ -69,7 +69,7 @@ Run your heroes app manually and automatically.
    1) workspace-project App should display welcome message
    - Failed: No element found using locator: By(css selector, app-root .content span)
    ```
- - Fix the failing test in e2e/src/app.e2e-spec.ts
+ - Fix the failing test
    - In app.po.ts we need to change where the title is read from in line 9
      - Replace
        ```
