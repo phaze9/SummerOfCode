@@ -83,4 +83,5 @@ Run your heroes app manually and automatically.
      - Hint: The fix is similar to what we did yesterday
    - Rerun the e2e tests to verify  
    - Again: Commit and synchronize your change
- - Share your GitHub heroes repository with your tutor so they can review your work
+ - Head over to your heroes repository on GitHub
+   - Invite your tutor as a collaborator so they can review your work
