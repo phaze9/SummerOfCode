@@ -17,3 +17,4 @@ If you get stuck: Ask Google, play around until it works or find a tutor.
 
 ## [Week 2: Code Away](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md) :surfer:
  - [Day 1: Git and Test](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-1-git-and-test-hotsprings)
+ - [Day 2: Run the application](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-2-run-the-application-running)
