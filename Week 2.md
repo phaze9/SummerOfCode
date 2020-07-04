@@ -70,5 +70,7 @@ Run your heroes app manually and automatically.
    - Failed: No element found using locator: By(css selector, app-root .content span)
    ```
  - Fix the failing test in e2e/src/app.e2e-spec.ts
+   - Hint: The fix is similar to what we did yesterday
+   - Rerun the e2e tests to verify  
    - Again: Commit and synchronize your change
  - Share your GitHub heroes repository with your tutor so they can review your work
