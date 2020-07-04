@@ -64,4 +64,11 @@ Run your heroes app manually and automatically.
      ```
      ng e2e
      ```
- 
+ - As with the unit tests we also broke an e2e test with our changes three days ago
+   ```
+   1) workspace-project App should display welcome message
+   - Failed: No element found using locator: By(css selector, app-root .content span)
+   ```
+ - Fix the failing test in e2e/src/app.e2e-spec.ts
+   - Again: Commit and synchronize your change
+ - Share your GitHub heroes repository with your tutor so they can review your work
