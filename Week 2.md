@@ -71,8 +71,14 @@ Run your heroes app manually and automatically.
    ```
  - Fix the failing test in e2e/src/app.e2e-spec.ts
    - In app.po.ts we need to change where the title is read from in line 9
-     - Replace: by.css('app-root .content span')
-     - With: by.css('h1')
+     - Replace
+       ```
+       by.css('app-root .content span')
+       ```
+     - With
+       ```
+       by.css('h1')
+       ```
    - Find out what to change in e2e/src/app.e2e-spec.ts
      - Hint: The fix is similar to what we did yesterday
    - Rerun the e2e tests to verify  
