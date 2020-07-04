@@ -42,3 +42,13 @@ Work with Git(Hub) and fix the tests.
  - Don't forget to commit and synchronize your changes
    - Use the message: Fixed the tests
  
+## Day 2: Run the application :running:
+Run your heroes app manually and automatically.
+ - Open a Terminal and change to the ~/Projects/heroes folder
+ - Start the heroes app using
+   ```
+   ng serve --open
+   ```
+ - Now open the heroes folder in Visual Studio Code
+ - Change the color of the title to your favorite color
+   - Edit the file src/app/app.component.scss
