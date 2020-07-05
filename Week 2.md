@@ -99,6 +99,9 @@ Let's finally write some code!
      ng generate component heroes  
      ```
    - [Read about what you just did](https://angular.io/tutorial/toh-pt1#create-the-heroes-component)
+ - Add a hero property https://angular.io/tutorial/toh-pt1#add-a-hero-property
+   - We add this on a new line before 'constructor() { }'
+   - Followed by an empty line
  - Run the heroes app in a Terminal
    - Like we did yesterday
  - [Show the HeroesComponent view](https://angular.io/tutorial/toh-pt1#show-the-heroescomponent-view)
