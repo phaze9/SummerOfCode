@@ -42,7 +42,7 @@ Work with Git(Hub) and fix the tests.
  - Don't forget to commit and synchronize your changes
    - Use the message: Fixed the tests
  
-## Day 2: Run the application :running:
+## Day 2: Run the App :running:
 Run your heroes app manually and automatically.
  - Open a Terminal and change to the ~/Projects/heroes folder
  - Run the heroes app using
@@ -86,7 +86,7 @@ Run your heroes app manually and automatically.
  - Head over to your heroes repository on GitHub
    - Invite your tutor as a collaborator so they can review your work
 
-## Day 3: Hero Editor :smiling_imp:
+## Day 3: Show your Hero :smiling_imp:
 Let's finally write some code!
  - First install a few more useful Visual Studio extensions
    - From the Extensions tab in Code
