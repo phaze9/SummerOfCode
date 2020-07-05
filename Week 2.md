@@ -93,7 +93,13 @@ Let's finally write some code!
    - Angular Language Service
    - Markdown All in One
    - ESLint
- - [Create the heroes component](https://angular.io/tutorial/toh-pt1#create-the-heroes-component)
+ - Create the heroes component
+   - Use the Angular CLI from your heroes Project in a Terminal
+     ```
+     ng generate component heroes  
+     ```
+   - [Read about what you just did](https://angular.io/tutorial/toh-pt1#create-the-heroes-component)
  - Run the heroes app in a Terminal
+   - Like we did yesterday
  - [Show the HeroesComponent view](https://angular.io/tutorial/toh-pt1#show-the-heroescomponent-view)
- 
+ - Commit and synchronize your changes
