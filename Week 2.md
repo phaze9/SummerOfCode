@@ -99,6 +99,7 @@ Let's finally write some code!
      ng generate component heroes  
      ```
    - [Read about what you just did](https://angular.io/tutorial/toh-pt1#create-the-heroes-component)
+ - Don't forget to save your changes in Visual Studio along the way
  - [Add a hero property](https://angular.io/tutorial/toh-pt1#add-a-hero-property)
    - We add this on a new line before 'constructor() { }'
    - Followed by an empty line
