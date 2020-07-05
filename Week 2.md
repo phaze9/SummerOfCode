@@ -106,4 +106,5 @@ Let's finally write some code!
    - Like we did yesterday
  - [Show the HeroesComponent view](https://angular.io/tutorial/toh-pt1#show-the-heroescomponent-view)
    - This will display the new heroes component in your app
+   - Enough for today, tomorrow we will turn it into a real hero
  - Commit and synchronize your changes
