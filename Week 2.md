@@ -88,10 +88,11 @@ Run your heroes app manually and automatically.
 
 ## Day 3: Hero Editor :smiling_imp:
 Let's finally write some code!
- - First install a couple more useful Visual Studio Code extensions
+ - First install a few more useful Visual Studio extensions
    - From the Extensions tab in Code
-   - Angular Language Service extension
-   - VS Code ESLint extension
+   - Angular Language Service
+   - Markdown All in One
+   - ESLint
  - [Create the heroes component](https://angular.io/tutorial/toh-pt1#create-the-heroes-component)
  - Run the heroes app in a Terminal
  - [Show the HeroesComponent view](https://angular.io/tutorial/toh-pt1#show-the-heroescomponent-view)
