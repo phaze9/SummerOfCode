@@ -110,7 +110,7 @@ Let's finally write some code!
    - Enough for today, tomorrow we will turn it into a real hero
  - Commit and synchronize your changes
 
-## Day 4: Identify your hero :bust_in_silhouette:
+## Day 4: Identify your Hero :bust_in_silhouette:
 This is your hero.
  - Run your heroes app in a Terminal and continue coding in Visual Studio  
  - Give your hero a proper name
