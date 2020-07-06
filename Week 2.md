@@ -117,6 +117,8 @@ This is your hero.
    - Edit heroes/src/app/heroes/heroes.component.ts
  - Create a Hero interface https://angular.io/tutorial/toh-pt1#create-a-hero-interface
    - Create a new hero.ts file in the src/app folder
+   - While applying the changes to heroes.component.ts look at each change
+     -  And try to understand what it does
    - When you are done, make sure your Terminal window displays "Compiled successfully."
  - Show the hero object https://angular.io/tutorial/toh-pt1#show-the-hero-object
    - Replace the content of heroes.component.html
