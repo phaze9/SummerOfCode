@@ -109,3 +109,13 @@ Let's finally write some code!
    - This will display the new heroes component in your app
    - Enough for today, tomorrow we will turn it into a real hero
  - Commit and synchronize your changes
+
+## Day 4: Identify your hero :bust_in_silhouette:
+This is your hero.
+ - Run your heroes app in a Terminal and continue coding in Visual Studio  
+ - Give your hero a proper name
+   - Edit heroes/src/app/heroes/heroes.component.ts
+ - Create a Hero interface https://angular.io/tutorial/toh-pt1#create-a-hero-interface
+ - Show the hero object https://angular.io/tutorial/toh-pt1#show-the-hero-object
+ - Commit and synchronize your changes
+ 
