@@ -116,6 +116,7 @@ This is your hero.
  - Give your hero a proper name
    - Edit heroes/src/app/heroes/heroes.component.ts
  - Create a Hero interface https://angular.io/tutorial/toh-pt1#create-a-hero-interface
+   - Create a new hero.ts file in the src/app folder
  - Show the hero object https://angular.io/tutorial/toh-pt1#show-the-hero-object
  - Commit and synchronize your changes
  
