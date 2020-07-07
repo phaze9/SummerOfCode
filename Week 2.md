@@ -126,7 +126,7 @@ This is your hero.
  
 ## Day 5: Test your Hero :question:
 Is your hero there?
- - Add a unit test: Check your heroes name
+ - Add a unit test: Check your hero's name
    - Open src/app/heroes/heroes.component.spec.ts in Visual Studio
    - Add a new test below the existing test 'should create'
      ```
@@ -135,18 +135,34 @@ Is your hero there?
      });
      ```
    - Open the ~/Projects/heroes folder in a Terminal
-   - Run the test
+   - Run the unit tests
      ```
      ng test
      ```
-   - Change what you need to make the test pass
+   - Change the test to make it pass
      - Also modify the title of the test to match what you changed
+   - Stop the test by pressing Ctrl-C in the Terminal window
  - Add an e2e test: Make sure your hero is shown
+   - Open e2e/src/app.po.ts
+   - Add a new function below the existing function getTitleText()
+     ```
+     getSubTitleText(): Promise<string> {
+       return element(by.css('h2')).getText() as Promise<string>;
+     }
+     ```
    - Open e2e/src/app.e2e-spec.ts
    - Add a new test below the existing test ''should display welcome message'
      ```
+     it('should display hero', () => {
+       page.navigateTo();
+       expect(page.getSubTitleText()).toMatch('.*Details');
+     });
      ```
-  - Commit and synchronize your changes
+   - Run the e2e tests
+     ```
+     ng e2e
+     ```
+ - Commit and synchronize your changes
  - Format with the UppercasePipe https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe
- - Fix your unit test
+ - Fix your unit test again
  - Commit and synchronize your changes
