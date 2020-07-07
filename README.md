@@ -2,9 +2,9 @@
 
 ![Logo](https://github.com/phaze9/SummerOfCode/blob/master/SummerOfCode.png?raw=true)
 
-Let's learn how to code! On GitHub you can develop lot's of fun stuff, even games! It is challenging, fun and rewarding to learn coding, so get ready 🚀
+Let's learn how to code! On GitHub you can develop lot's of fun stuff, even games! It is challenging, fun and rewarding to learn coding, so get ready :rocket:
 
-If you get stuck: Ask Google, play around until it works or find a tutor.
+If you get stuck: Ask Google, play around until it works, team up with a friend or find a tutor.
 
 ## [Week 1: Get Started](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md) :construction:
  - [Day 1: GitHub](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md#day-1-github-cat) :cat:
