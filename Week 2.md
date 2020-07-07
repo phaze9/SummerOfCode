@@ -124,3 +124,14 @@ This is your hero.
    - Replace the content of heroes.component.html
  - Commit and synchronize your changes
  
+
+## Day 5: Test your hero :question:
+Is your hero there?
+ - Add a unit test  
+   - Check your heroes name
+ - Add an e2e test
+   - Make sure your hero is shown
+  - Commit and synchronize your changes
+ - Format with the UppercasePipe https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe
+ - Fix your unit test
+ - Commit and synchronize your changes
