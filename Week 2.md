@@ -130,8 +130,8 @@ Is your hero there?
    - Open src/app/heroes/heroes.component.spec.ts in Visual Studio
    - Add a new test below the existing test 'should create'
      ```
-     it('should be called Hero', () => {
-       expect(component.hero.name).toEqual('Hero');
+     it('should be called Windstorm', () => {
+       expect(component.hero.name).toEqual('Windstorm');
      });
      ```
    - Open the ~/Projects/heroes folder in a Terminal
