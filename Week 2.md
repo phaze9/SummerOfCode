@@ -124,13 +124,23 @@ This is your hero.
    - Replace the content of heroes.component.html
  - Commit and synchronize your changes
  
-
-## Day 5: Test your hero :question:
+## Day 5: Test your Hero :question:
 Is your hero there?
- - Add a unit test  
-   - Check your heroes name
- - Add an e2e test
-   - Make sure your hero is shown
+ - Add a unit test: Check your heroes name
+   - Open src/app/heroes/heroes.component.spec in Visual Studio
+   - Add a new test
+     ```
+     it('should be called Hero', () => {
+       expect(component.hero.name).toEqual('Hero');
+     });
+     ```
+   - Open the ~/Projects/heroes folder in a Terminal
+   - Run the test
+     ```
+     ng test
+     ```
+   - Make any changes needed to make the test pass
+ - Add an e2e test: Make sure your hero is shown
   - Commit and synchronize your changes
  - Format with the UppercasePipe https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe
  - Fix your unit test
