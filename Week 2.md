@@ -164,5 +164,7 @@ Is your hero there?
      ```
  - Commit and synchronize your changes
  - Format with the UppercasePipe https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe
- - Fix your unit test again
+   - Change the first line in src/app/heroes/heroes.component.html
+   - Leave the other two lines unchanged
+ - Rerun the unit and e2e tests to make sure they still pass
  - Commit and synchronize your changes
