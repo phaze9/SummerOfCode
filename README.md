@@ -20,3 +20,4 @@ If you get stuck: Ask Google, play around until it works or find a tutor.
  - [Day 2: Run the App](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-2-run-the-application-running) :running: 
  - [Day 3: Show your Hero](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-3-hero-editor-smiling_imp) :smiling_imp:
  - [Day 4: Identify your Hero](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-4-identify-your-hero-bust_in_silhouette) :bust_in_silhouette:
+ - [Day 5: Test your Hero](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-5-test-your-hero-question) :question:
