@@ -170,6 +170,15 @@ Is your hero there?
  - Commit and synchronize your changes
 
 ## Day 6: Edit your Hero :pencil2:
+Today we will make our hero editable and learn about the development tools built into your web browser.
+ - Run your app in the terminal
+ - Open the development tools in the browser where your app is running
+   - Chrome
+     - Press Option-Command-I (Mac) or Ctrl-Shift-I (Windows)
+   - Safari
+     - Go to Preferences... Advanced
+       - Select: Show Develop menu in menu bar
+     - Press Option-Command-I (Mac) or Ctrl-Shift-I (Windows)
  - Follow the [instructions here](https://angular.io/tutorial/toh-pt1#edit-the-hero)
    - Make sure to read them carefully
    - Refactoring means changing your code to make it better
