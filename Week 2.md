@@ -169,5 +169,5 @@ Is your hero there?
  - Rerun the unit and e2e tests to make sure they still pass
  - Commit and synchronize your changes
 
-## Day 6: Edit your hero :pencil2:
+## Day 6: Edit your Hero :pencil2:
  - Follow the [instructions here](https://angular.io/tutorial/toh-pt1#edit-the-hero)
