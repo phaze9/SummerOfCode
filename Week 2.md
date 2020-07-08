@@ -182,3 +182,6 @@ Today we will make our hero editable and learn about the development tools built
  - Follow the [instructions here](https://angular.io/tutorial/toh-pt1#edit-the-hero)
    - Make sure to read them carefully
    - Refactoring means changing your code to make it better
+   - The error message may show up in your Terminal window instead of the development tools console
+ - As always: Commit and synchronize your changes
+ 
