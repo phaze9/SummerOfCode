@@ -172,3 +172,4 @@ Is your hero there?
 ## Day 6: Edit your Hero :pencil2:
  - Follow the [instructions here](https://angular.io/tutorial/toh-pt1#edit-the-hero)
    - Make sure to read them carefully
+   - Refactoring means changing your code to make it better
