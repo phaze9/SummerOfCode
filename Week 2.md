@@ -187,3 +187,12 @@ Today we will make our hero editable and learn about the development tools built
    - The error message may show up in your Terminal window instead of the development tools console
  - As always: Commit and synchronize your changes
  
+## Day 7: Rinse and Repeat :feet:
+We learned a LOT during the last two weeks!
+ - Reread [Week 1: Get Started](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md) :construction:
+   - In the first week we installed and learned about the tools we need.
+   - Make sure you know the basics by :heart:
+ - Reread [Week 2: Start Coding](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md) :vibration_mode:
+   - In the second week we started working on our app.
+   - Make sure you now how to run the app as well as the unit and e2e tests.
+   
