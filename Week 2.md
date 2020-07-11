@@ -1,3 +1,5 @@
+# Week 2: Start Coding :vibration_mode:
+
 If you can't remember how to do something we already did, look it up in [last week's curriculum](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md)!
 
 ## Day 1: Git and Test :hotsprings:
