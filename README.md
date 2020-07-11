@@ -15,7 +15,7 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 6: Angular Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md#day-6-angular-heroes-ok_woman) :ok_woman:
  - [Day 7: Back to GitHub](https://github.com/phaze9/SummerOfCode/blob/master/Week%201.md#day-7-back-to-github-arrow_backward) :arrow_backward:
 
-## [Week 2: Code Away](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md) :surfer:
+## [Week 2: Start Coding](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md) :vibration_mode:
  - [Day 1: Git and Test](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-1-git-and-test-hotsprings) :hotsprings:
  - [Day 2: Run the App](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-2-run-the-application-running) :running: 
  - [Day 3: Show your Hero](https://github.com/phaze9/SummerOfCode/blob/master/Week%202.md#day-3-hero-editor-smiling_imp) :smiling_imp:
