@@ -1,3 +1,5 @@
+# Week 1: Get Started :construction:
+
 ## Day 1: GitHub :cat:
 GitHub is where developers meet.
 - Check out the [GitHub](https://github.com) website, create an account and find out how it works. 
