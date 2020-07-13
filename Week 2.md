@@ -117,12 +117,12 @@ This is your hero.
  - Run your heroes app in a Terminal and continue coding in Visual Studio  
  - Give your hero a proper name
    - Edit heroes/src/app/heroes/heroes.component.ts
- - Create a Hero interface https://angular.io/tutorial/toh-pt1#create-a-hero-interface
+ - [Create a Hero interface](https://angular.io/tutorial/toh-pt1#create-a-hero-interface)
    - Create a new hero.ts file in the src/app folder
    - While applying the changes to heroes.component.ts look at each change
      -  And try to understand what it does
    - When you are done, make sure your Terminal window displays "Compiled successfully."
- - Show the hero object https://angular.io/tutorial/toh-pt1#show-the-hero-object
+ - [Show the hero object](https://angular.io/tutorial/toh-pt1#show-the-hero-object)
    - Replace the content of heroes.component.html
  - Commit and synchronize your changes
  
@@ -165,7 +165,7 @@ Is your hero there?
      ng e2e
      ```
  - Commit and synchronize your changes
- - Format with the UppercasePipe https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe
+ - [Format with the UppercasePipe](https://angular.io/tutorial/toh-pt1#format-with-the-uppercasepipe)
    - Change the first line in src/app/heroes/heroes.component.html
    - Leave the other two lines unchanged
  - Rerun the unit and e2e tests to make sure they still pass
