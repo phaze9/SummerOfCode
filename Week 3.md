@@ -1,6 +1,6 @@
 # Week 3: Code Away :surfer:
 
-This week we're getting serious with coding.
+This week we're getting serious about coding.
 
 ## Day 1: You have more Heroes :two_women_holding_hands:
 List and style your heroes.
