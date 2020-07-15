@@ -25,3 +25,6 @@ When the user clicks a hero in the master list, the component should display the
  - [Style the selected hero](https://angular.io/tutorial/toh-pt2#style-the-selected-hero)
  - Don't forget to commit your changes
  
+## Day 3: Split your App :broken_heart:
+Split the heroes component in two. 
+ - [Create a feature component](https://angular.io/tutorial/toh-pt3#create-a-feature-component)
