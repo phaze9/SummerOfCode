@@ -31,4 +31,4 @@ Split the heroes component in two.
 
 ## Day 4: Serve the Heroes :nail_care:
 Services provide access to your app's data.
-- Add services https://angular.io/tutorial/toh-pt4
+- [Add services](https://angular.io/tutorial/toh-pt4)
