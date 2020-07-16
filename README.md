@@ -28,3 +28,5 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 1: You have more Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-1-you-have-more-heroes-two_women_holding_hands) :two_women_holding_hands:
  - [Day 2: Master / Detail](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-2-master--detail-mag) :mag:
  - [Day 3: Split your App](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-3-split-your-app-broken_heart) :broken_heart:
+ - [Day 4: Serve the Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-4-serve-the-heroes-nail_care) :nail_care:
+ 
