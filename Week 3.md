@@ -28,3 +28,7 @@ When the user clicks a hero in the master list, the component should display the
 ## Day 3: Split your App :broken_heart:
 Split the heroes component in two. 
  - [Create a feature component](https://angular.io/tutorial/toh-pt3#create-a-feature-component)
+
+## Day 4: Serve the Heroes :nail_care:
+Services provide access to your app's data.
+- Add services https://angular.io/tutorial/toh-pt4
