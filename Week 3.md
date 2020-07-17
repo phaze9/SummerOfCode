@@ -33,3 +33,8 @@ Split the heroes component in two.
 Services provide access to your app's data.
  - [Add services](https://angular.io/tutorial/toh-pt4)
  - Make sure to read all the explanations, so you gain a deeper understanding
+
+## Day 5: Navigate your Heroes :ship:
+Your app needs more than one screen.
+ - [Add in-app navigation with routing](https://angular.io/tutorial/toh-pt5)
+ - Make sure to read all the explanations, so you gain a deeper understanding  
