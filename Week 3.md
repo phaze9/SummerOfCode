@@ -51,8 +51,25 @@ Put your app on your phone!
    ```
    ng e2e
    ```
- - You should always run your tests after you made changes, they will be easier to fix then
- - Repair problems in your tests
+   - You should always run your tests after you made changes, they will be easier to fix then
+ - Repair problems in the unit tests
+   - You will need to adjust heroes.component.spec.ts to the changes you did in heroes.component.ts
+   - We now have a list of heroes instead of a single hero
+     - Let's check the name of the first hero
+   - Replace
+     ```
+     expect(component.hero.name).toEqual
+     ```
+   - By
+     ```
+     expect(component.heroes[0].name).toEqual
+     ```
+   - Now rerun
+     ```
+     ng test
+     ```
+   - You should be able to fix the problem now
+ - Repair problems in the e2e tests 
  - Install the NativeScript command line interface
    ```
    npm install --global nativescript
