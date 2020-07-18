@@ -38,3 +38,13 @@ Services provide access to your app's data.
 Your app needs more than one screen.
  - [Add in-app navigation with routing](https://angular.io/tutorial/toh-pt5)
  - Make sure to read all the explanations, so you gain a deeper understanding  
+
+## Day 6: Go Mobile :iphone:
+Put your app on your phone!
+ - Check your GitHub project for commits by your tutor
+   - Review them and synchronize in Visual Studio Code
+ - Make sure all your unit and e2e tests still pass
+ - Install the NativeScript command line interface
+   ```
+   npm install --global nativescript
+   ```
