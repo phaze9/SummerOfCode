@@ -53,3 +53,8 @@ Put your app on your phone!
    ```
    ng add @nativescript/schematics
    ```
+ - Run your app to check that it still works as before in the web browser
+ - Build the NativeScript app
+   ```
+   tns preview
+   ```
