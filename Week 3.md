@@ -45,6 +45,14 @@ Put your app on your phone!
    - Check for commits by your tutor
    - Review them and synchronize in Visual Studio Code
  - Make sure all your unit and e2e tests still pass
+   ```
+   ng test
+   ```
+   ```
+   ng e2e
+   ```
+ - You should always run your tests after you made changes, they will be easier to fix then
+ - Repair problems in your tests
  - Install the NativeScript command line interface
    ```
    npm install --global nativescript
