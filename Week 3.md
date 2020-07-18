@@ -41,10 +41,15 @@ Your app needs more than one screen.
 
 ## Day 6: Go Mobile :iphone:
 Put your app on your phone!
- - Check your GitHub project for commits by your tutor
+ - Go to your app's repository on the GitHub website
+   - Check for commits by your tutor
    - Review them and synchronize in Visual Studio Code
  - Make sure all your unit and e2e tests still pass
  - Install the NativeScript command line interface
    ```
    npm install --global nativescript
+   ```
+ - Add NativeScript to your app
+   ```
+   ng add @nativescript/schematics
    ```
