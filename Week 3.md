@@ -74,7 +74,7 @@ We wrote a lot of code and forgot about the automated tests.
        ```
        import { RouterTestingModule } from '@angular/router/testing';
        ```
-     - After this line
+     - After the following line
        ```
        declarations: [ HeroDetailComponent ]
        ```
@@ -84,7 +84,26 @@ We wrote a lot of code and forgot about the automated tests.
        ```
      - Notice how Visual Studio underlines "imports:" red
        - Fix this by adding a comma at the end of the declarations line 
- - Repair problems in the e2e tests
+ - Repair problem in the e2e tests in app.e2e-spec.ts
+   - In app.po.ts add
+     ```
+     getSubSubTitleText(): Promise<string> {
+       return element(by.css('h3')).getText() as Promise<string>;
+     }
+     ```
+   - In app.e2e-spec.ts use
+     ```
+     getSubSubTitleText()
+     ```
+     instead of
+     ```
+     getSubTitleText()
+     ```
+   - Now rerun
+     ```
+     ng e2e
+     ```
+   - You should be able to fix the 'should display hero' test now
 
 ## Day 7: Go Mobile :iphone:
 Put your app on your phone!
