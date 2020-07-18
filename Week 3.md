@@ -39,8 +39,8 @@ Your app needs more than one screen.
  - [Add in-app navigation with routing](https://angular.io/tutorial/toh-pt5)
  - Make sure to read all the explanations, so you gain a deeper understanding  
 
-## Day 6: Go Mobile :iphone:
-Put your app on your phone!
+## Day 6: Fix the Tests :sweat_drops:
+We wrote a lot of code and forgot about the automated tests.
  - Go to your app's repository on the GitHub website
    - Check for commits by your tutor
    - Review them and synchronize in Visual Studio Code
@@ -69,7 +69,10 @@ Put your app on your phone!
      ng test
      ```
    - You should be able to fix the problem now
- - Repair problems in the e2e tests 
+ - Repair problems in the e2e tests
+
+## Day 7: Go Mobile :iphone:
+Put your app on your phone!
  - Install the NativeScript command line interface
    ```
    npm install --global nativescript
