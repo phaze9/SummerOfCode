@@ -54,21 +54,36 @@ We wrote a lot of code and forgot about the automated tests.
    - You should always run your tests after you made changes, they will be easier to fix then
  - Repair problems in the unit tests
    - You will need to adjust heroes.component.spec.ts to the changes you did in heroes.component.ts
-   - We now have a list of heroes instead of a single hero
-     - Let's check the name of the first hero
-   - Replace
-     ```
-     expect(component.hero.name).toEqual
-     ```
-   - By
-     ```
-     expect(component.heroes[0].name).toEqual
-     ```
-   - Now rerun
-     ```
-     ng test
-     ```
-   - You should be able to fix the problem now
+     - We now have a list of heroes instead of a single hero
+       - Let's check the name of the first hero
+     - Replace
+       ```
+       expect(component.hero.name).toEqual
+       ```
+     - By
+       ```
+       expect(component.heroes[0].name).toEqual
+       ```
+     - Now rerun
+       ```
+       ng test
+       ```
+     - You should be able to fix the HeroesComponent test now
+   - In hero-detail-component.spec.ts we need to mock the routing
+     - Add the import on the 2nd line of the file
+       ```
+       import { RouterTestingModule } from '@angular/router/testing';
+       ```
+     - After this line
+       ```
+       declarations: [ HeroDetailComponent ]
+       ```
+     - Add
+       ```
+       imports: [ RouterTestingModule ]
+       ```
+     - Notice how Visual Studio underlines "imports:" red
+       - Fix this by adding a comma at the end of the declarations line 
  - Repair problems in the e2e tests
 
 ## Day 7: Go Mobile :iphone:
