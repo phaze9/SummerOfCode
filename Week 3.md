@@ -139,4 +139,13 @@ Let's add a couple tests for our new features.
    ```
    page.navigateTo();
    ```
-   
+ - Implement 'should show hero details'
+   - We need to import the class 'by', change the 2nd line of the file to
+     ```
+     import { browser, logging, element, by } from 'protractor';
+     ```
+   - Click on the first hero
+     ```
+     element.all(by.css('h4')).first().click();
+     ```
+ - Implement 'should show list of heroes'
