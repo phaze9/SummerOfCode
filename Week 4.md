@@ -1,6 +1,6 @@
 # Week 4: Your Heroes on your Phone :iphone:
 
-## Day 1: Go Mobile :iphone:
+## Day 1: Go Mobile :busstop:
 Put your app on your phone!
  - Install the NativeScript command line interface
    ```
