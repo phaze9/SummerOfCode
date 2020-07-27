@@ -135,3 +135,8 @@ Let's add a couple tests for our new features.
    ng e2e
    ```
    - You will notice that they pass, but don't actually do anything  
+ - Navigate to the app page: Add this line to both new tests
+   ```
+   page.navigateTo();
+   ```
+   
