@@ -148,4 +148,18 @@ Let's add a couple tests for our new features.
      ```
      element.all(by.css('h4')).first().click();
      ```
+   - Verify that we are now on the hero details page
+     ```
+     expect(element(by.css('app-hero-detail'))).toBeTruthy();
+     ```
  - Implement 'should show list of heroes'
+   - Click on the 'Heroes' button
+     ```
+     element(by.linkText('Heroes')).click();
+     ```
+   - Verify that we are now on the list of heroes page
+     ```
+     expect(page.getSubSubTitleText()).toMatch('My Heroes');
+     ```
+ - Commit and synchronize your new tests
+ 
