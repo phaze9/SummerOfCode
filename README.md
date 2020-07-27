@@ -31,4 +31,7 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 4: Serve the Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-4-serve-the-heroes-nail_care) :nail_care:
  - [Day 5: Navigate your Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-5-navigate-your-heroes-ship) :ship:
  - [Day 6: Fix the Tests](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-6-fix-the-tests-sweat_drops) :sweat_drops:
- - [Day 7: Go Mobile](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-7-go-mobile-iphone) :iphone:
+ - [Day 7: Add more Tests](https://github.com/phaze9/SummerOfCode/blob/master/Week%203.md#day-7-add-more-tests-trident) :trident:
+ 
+## [Week 4: Your Heroes on your Phone](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md) :iphone:
+ - [Day 1: Go Mobile](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-1-go-mobile-busstop) :busstop:
