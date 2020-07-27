@@ -104,3 +104,21 @@ We wrote a lot of code and forgot about the automated tests.
      ng e2e
      ```
    - You should be able to fix the 'should display hero' test now
+
+## Day 7: Add more tests :trident:
+Let's add a couple tests for our new features.
+ - First lets make sure the packages we use are uptodate
+   - Open a terminal and change to your project folder
+   - We will use the node package manager - npm
+   - Install the currently specified package versions
+     ```
+     npm install
+     ```
+     - Notice in Visual Studio that package-lock.json was updated
+   - Update and install the package versions
+     ```
+     npm update
+     ```
+     - Notice that package.json and package-lock.json were updated
+   - Commit and synchronize the updated package files
+   
