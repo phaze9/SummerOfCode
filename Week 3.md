@@ -121,4 +121,17 @@ Let's add a couple tests for our new features.
      ```
      - Notice that package.json and package-lock.json were updated
    - Commit and synchronize the updated package files
+ - We will add two new end-to-end tests in app.e2e-spec.ts
+   ```
+   it('should show hero details', () => {
    
+   });
+  
+   it('should show list of heroes', () => {
+   
+   });
+ - Run the tests
+   ```
+   ng e2e
+   ```
+   - You will notice that they pass, but don't actually do anything  
