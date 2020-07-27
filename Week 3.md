@@ -104,19 +104,3 @@ We wrote a lot of code and forgot about the automated tests.
      ng e2e
      ```
    - You should be able to fix the 'should display hero' test now
-
-## Day 7: Go Mobile :iphone:
-Put your app on your phone!
- - Install the NativeScript command line interface
-   ```
-   npm install --global nativescript
-   ```
- - Add NativeScript to your app
-   ```
-   ng add @nativescript/schematics
-   ```
- - Run your app to check that it still works as before in the web browser
- - Build the NativeScript app
-   ```
-   tns preview
-   ```
