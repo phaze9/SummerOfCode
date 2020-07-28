@@ -8,6 +8,7 @@ Put your app on your phone!
    ```
  - Add NativeScript to your app
    ```
+   npm install --save-dev @schematics/angular@9.1.8
    ng add @nativescript/schematics
    ```
  - Run your app to check that it still works as before in the web browser
