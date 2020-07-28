@@ -4,7 +4,7 @@
 Put your app on your phone!
  - Install the NativeScript command line interface
    ```
-   npm install --global nativescript
+   sudo npm install --global nativescript
    ```
  - Add NativeScript to your app
    ```
