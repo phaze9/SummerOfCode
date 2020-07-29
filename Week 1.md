@@ -4,7 +4,7 @@
 GitHub is where developers meet.
 - Check out the [GitHub](https://github.com) website, create an account and find out how it works. 
 - Follow phaze9.
-- Install the GitHub Desktop app. 
+- Install the GitHub mobile app. 
 
 ## Day 2: Fork SummerOfCode :fork_and_knife:
 The GitHub website is great for small changes.
