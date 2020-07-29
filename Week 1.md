@@ -2,19 +2,20 @@
 
 ## Day 1: GitHub :cat:
 GitHub is where developers meet.
-- Check out the [GitHub](https://github.com) website, create an account and find out how it works. 
-- Follow phaze9.
-- Install the GitHub mobile app. 
+- Check out the [GitHub](https://github.com) website, create an account and find out how it works
+- Follow phaze9
+- Install the GitHub mobile app
 
 ## Day 2: Fork SummerOfCode :fork_and_knife:
 The GitHub website is great for small changes.
-- [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the SummerOfCode project.
-- Edit the file README.md to improve the instructions for SummerOfCode. 
-  - Find out how [Markdown](https://guides.github.com/features/mastering-markdown/) syntax works.
+- [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the SummerOfCode project
+- Edit the file README.md to improve the instructions for SummerOfCode
+  - Find out how [Markdown](https://guides.github.com/features/mastering-markdown/) syntax works
   - [Markdown Emojis](https://gist.github.com/rxaviers/7360908)
-  - Don't commit but use the preview changes button.
-  - When you are finished, commit your changes. Briefly describe what you did in the Commit changes text field 
-- Submit a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for your changes from the GitHub web interface.
+  - Use the 'Preview changes' button to see the formatted text
+- When you are finished, commit your changes
+  - Briefly describe what you did in the Commit changes text field 
+- Submit a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for your changes from the GitHub web interface
 
 ## Day 3: Visual Studio Code :floppy_disk:
 Serious development requires serious tools.
