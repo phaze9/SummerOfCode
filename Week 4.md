@@ -6,9 +6,17 @@ Put your app on your phone!
    ```
    sudo npm install --global nativescript
    ```
+ - We need to perform two extra steps because NativeScript is not yet fully compatible with Angular 10 (at the time of writing)
+   - Remove the first commented out line (as below) from the files tsconfig.app.json and tsconfig.base.json
+     ```
+     /* To learn more about this file see: https://angular.io/config/tsconfig. */
+     ```
+   - Install the Angular 9 version of schematics
+     ```
+     npm install --save-dev @schematics/angular@^9
+     ```
  - Add NativeScript to your app
    ```
-   npm install --save-dev @schematics/angular@9.1.8
    ng add @nativescript/schematics
    ```
  - Run your app to check that it still works as before in the web browser
