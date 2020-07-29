@@ -12,7 +12,8 @@ The GitHub website is great for small changes.
 - Edit the file README.md to improve the instructions for SummerOfCode. 
   - Find out how [Markdown](https://guides.github.com/features/mastering-markdown/) syntax works.
   - [Markdown Emojis](https://gist.github.com/rxaviers/7360908)
-  - Briefly describe what you did in the Commit changes text field
+  - Don't commit but use the preview changes button.
+  - When you are finished, commit your changes. Briefly describe what you did in the Commit changes text field 
 - Submit a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) for your changes from the GitHub web interface.
 
 ## Day 3: Visual Studio Code :floppy_disk:
