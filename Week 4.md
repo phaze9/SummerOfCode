@@ -40,4 +40,5 @@ Put your app on your phone!
    - NativeScript Playground ([Android](https://play.google.com/store/apps/details?id=org.nativescript.play), [iOS](https://apps.apple.com/us/app/nativescript-playground/id1263543946)) — used to scan a QR code provided by the NativeScript CLI
    - NativeScript Preview ([Android](https://play.google.com/store/apps/details?id=org.nativescript.preview), [iOS](https://apps.apple.com/us/app/nativescript-preview/id1264484702) — used to host display your app
  - Scan the QR code with the NativeScript Playground app, which will connect your project with the NativeScript Preview app
+   - If everything works, you will see the following on your phone: "auto-generated works!"
  - As always commit and synchronize your changes
