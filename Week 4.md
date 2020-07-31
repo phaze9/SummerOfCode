@@ -7,7 +7,7 @@ Put your app on your phone!
    sudo npm install --global nativescript
    ```
  - We need to perform two extra steps because NativeScript is not yet fully compatible with Angular 10 (at the time of writing)
-   - Remove the first commented out line (as below) from the files tsconfig.app.json and tsconfig.base.json
+   - Remove the first line (as below) from the files tsconfig.app.json and tsconfig.base.json
      ```
      /* To learn more about this file see: https://angular.io/config/tsconfig. */
      ```
