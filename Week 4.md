@@ -20,10 +20,17 @@ Put your app on your phone!
    ng add @nativescript/schematics
    ```
  - Run your app to check that it still works as before in the web browser
- - Install version 5 of the copy-webpack-plugin 
-   ```
-   npm install --save copy-webpack-plugin@^5
-   ```
+ - Now we need a couple more tweaks and we're good to go 
+   - Install version 5 of the copy-webpack-plugin 
+     ```
+     npm install --save copy-webpack-plugin@^5
+     ```
+   - Add the following two lines to the end of the "compilerOptions" section in tsconfig.tns.json
+     ```
+     "baseUrl": "./",
+     "experimentalDecorators": true
+     ```
+     - You will also need to add a comma at the end of the preceding line which contains a single curly bracket
  - Build the NativeScript app
    ```
    tns preview
