@@ -42,3 +42,38 @@ Put your app on your phone!
  - Scan the QR code with the NativeScript Playground app, which will connect your project with the NativeScript Preview app
    - If everything works, you will see the following on your phone: "auto-generated works!"
  - As always commit and synchronize your changes
+
+## Day 2: Migrate your Heroes :dash:  
+We want our heroes to work in the web browser and the mobile app.
+ - Migrate the app navigation
+   - Add a shared file with the routes configuration in src/app: app.routes.ts
+     ```
+     import { Routes } from '@angular/router';
+     ```
+   - Cut and paste this code block from app-routing-module.ts to app.routes.ts
+     ```
+     const routes: Routes = [
+       ...
+     ];
+     ```
+   - Also cut and paste these import statements from app-routing-module.ts to app.routes.ts
+     ```
+     import { DashboardComponent }   from './dashboard/dashboard.component';
+     import { HeroesComponent }      from './heroes/heroes.component';
+     import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
+     ```
+   - Add the following import to app-routing-module.ts
+     ```
+     import { routes } from '@src/app/app.routes';
+     ```
+   - Remove this code block from app-routing-module.tns.ts
+     ```
+     const routes: Routes = [
+       ...
+     ];
+     ```
+   - Add the following import to app-routing-module.tns.ts
+     ```
+     import { routes } from '@src/app/app.routes';
+     ```
+    
