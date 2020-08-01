@@ -45,6 +45,7 @@ Put your app on your phone!
 
 ## Day 2: Move your Heroes :dash:  
 We want our heroes to work in the web browser and the mobile app.
+ - Make sure you read and follow these instructions carefully!
  - Migrate the app navigation
    - Add a shared file with the routes configuration in src/app: app.routes.ts
      ```
