@@ -43,7 +43,7 @@ Put your app on your phone!
    - If everything works, you will see the following on your phone: "auto-generated works!"
  - As always commit and synchronize your changes
 
-## Day 2: Migrate your Heroes :dash:  
+## Day 2: Move your Heroes :dash:  
 We want our heroes to work in the web browser and the mobile app.
  - Migrate the app navigation
    - Add a shared file with the routes configuration in src/app: app.routes.ts
@@ -52,7 +52,7 @@ We want our heroes to work in the web browser and the mobile app.
      ```
    - Cut and paste this code block from app-routing-module.ts to app.routes.ts
      ```
-     const routes: Routes = [
+     export const routes: Routes = [
        ...
      ];
      ```
@@ -68,7 +68,7 @@ We want our heroes to work in the web browser and the mobile app.
      ```
    - Remove this code block from app-routing-module.tns.ts
      ```
-     const routes: Routes = [
+     export const routes: Routes = [
        ...
      ];
      ```
