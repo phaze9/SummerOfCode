@@ -136,4 +136,15 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      ```
      platformNativeScriptDynamic({createFrameOnBootstrap: true}).bootstrapModule(AppModule);
      ```
-     
+ - Replace the first line of app.component.tns.html with these
+   ```
+   <ActionBar title="{{title}}">
+     <ActionItem text="Dashboard" (tap)="dashboard()"></ActionItem>
+     <ActionItem text="Heroes" (tap)="heroes()"></ActionItem>
+   </ActionBar>
+   ```
+ - Start the mobile app
+   ```
+   tns preview
+   ```
+   
