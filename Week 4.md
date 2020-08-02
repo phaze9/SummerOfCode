@@ -125,3 +125,15 @@ Today we'll prepare our components for the mobile app.
    tns preview
    ```
    - Scan the QR code using the NativeScript Playground app
+
+## Day 4: App User Interface :octocat:
+Our web app is quite nice, but we want our mobile app to feel like an app, not a web site.
+ - In main.tns.ts replace
+   ```
+   platformNativeScriptDynamic().bootstrapModule(AppModule);
+   ```
+   - With
+     ```
+     platformNativeScriptDynamic({createFrameOnBootstrap: true}).bootstrapModule(AppModule);
+     ```
+     
