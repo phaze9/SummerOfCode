@@ -147,4 +147,13 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
    ```
    tns preview
    ```
-   
+ - Replace the content of dashboard.component.tns.html with
+   ```
+   <StackLayout>
+     <Label text="Top Heroes" textAlignment="center" class="h3"></Label>/>
+     <StackLayout orientation="horizontal">
+       <Button *ngFor="let hero of heroes" textAlignment="center" class="h4" text="{{hero.name}}" nsRouterLink="/detail/{{hero.id}}"></Button>
+     </StackLayout>
+   </StackLayout>
+   ```
+- Restart the mobile app if necessary
