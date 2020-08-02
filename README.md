@@ -37,4 +37,4 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 1: Go Mobile](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-1-go-mobile-busstop) :busstop:
  - [Day 2: Move your Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-2-move-your-heroes-dash) :dash:
  - [Day 3: Still Moving](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-3-still-moving-sweat_smile) :sweat_smile:
- 
+ - [Day 4: App User Interface](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-4-app-user-interface-octocat) :octocat:
