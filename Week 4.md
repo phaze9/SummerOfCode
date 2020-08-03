@@ -194,6 +194,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
    ```
    
  ## Day 5: Mobile List of Heroes :scroll:
+ We will use a native list view component to display your heroes on your phone.
  - Install the NativeScript ListView from the terminal
    ```
    tns plugin add nativescript-ui-listview@rc
@@ -217,3 +218,19 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
        ```
        NativeScriptUIListViewModule ,
        ```
+ - Replace heroes.component.tns.html with
+   ```   
+   <StackLayout>
+     <Label text="My Heroes" class="h2"></Label>/>
+     <ListView items="{{heroes}}">
+       <ListView.itemTemplate>
+         <StackLayout orientation="horizontal">
+           <Button textAlignment="right" text="{{id}}" class="badge" nsRouterLink="/detail/{{id}}"></Button>
+           <Button textAlignment="left" text="{{name}}" nsRouterLink="/detail/{{id}}"></Button>  
+         </StackLayout>
+       </ListView.itemTemplate>
+     </ListView>
+   </StackLayout>
+   ```
+ - Test your mobile app and verify that everything works like in the web version
+ 
