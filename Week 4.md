@@ -154,7 +154,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
        ```
    - After this line
      ```
-     export class AppComponent {
+     export class AppComponent { }
      ```
      - Add
        ```
@@ -169,6 +169,11 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
          this.router.navigateByUrl("/heroes");
        }
        ```
+     - Remove the closing curly bracket } from
+       ```
+       export class AppComponent { }
+       ```
+     - And add it on a new line after the code block you just inserted
  - Start the mobile app
    ```
    tns preview
