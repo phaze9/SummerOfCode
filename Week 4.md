@@ -156,14 +156,19 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      </StackLayout>
    </StackLayout>
    ```
-- Restart the mobile app if necessary
-- Replace hero-detail.component.tns.html with
-  ```
-  <StackLayout *ngIf="hero">
-    <Label text="{{hero.name | uppercase}} Details" class="h2"></Label>
-    <Label text="id: {{hero.id}}"></Label>
-    <Label text="name:"></Label>
-    <TextField [text]="hero.name"></TextField>
-  </StackLayout>
-  ```
+ - Restart the mobile app if necessary
+ - Replace hero-detail.component.tns.html with
+   ```
+   <StackLayout *ngIf="hero">
+     <Label text="{{hero.name | uppercase}} Details" class="h2"></Label>
+     <Label text="id: {{hero.id}}"></Label>
+     <Label text="name:"></Label>
+     <TextField [text]="hero.name"></TextField>
+   </StackLayout>
+   ```
+ - Install the NativeScript ListView from the terminal
+   ```
+   tns plugin add nativescript-ui-listview@rc
+   ```
+   - At the time of writing we need to use the release candidate (rc) version for compatibility with Angular 10
   
