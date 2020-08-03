@@ -192,6 +192,8 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      <TextField [text]="hero.name"></TextField>
    </StackLayout>
    ```
+   
+ ## Day 5:
  - Install the NativeScript ListView from the terminal
    ```
    tns plugin add nativescript-ui-listview@rc
