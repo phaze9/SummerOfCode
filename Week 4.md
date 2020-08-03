@@ -117,8 +117,8 @@ Today we'll prepare our components for the mobile app.
    ng g migrate-component --name=hero-detail
    ng g migrate-component --name=heroes
    ```
- - If you open the file app.module.tns.ts, you will notice that all imports starting with '@src/app/..' are marked as invalid.
-   - This is a Visual Studio Code issue and won't affect your app.
+ - If you open the file app.module.tns.ts, you will notice that all imports starting with '@src/app/..' are marked as invalid
+   - This is a Visual Studio Code issue and won't affect your app
  - From the Extensions tab in Visual Studio install the [NativeScript extension](https://marketplace.visualstudio.com/items?itemName=NativeScript.nativescript)
  - Let's see what our mobile app looks like now
    ```
