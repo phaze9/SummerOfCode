@@ -174,6 +174,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
        export class AppComponent { }
        ```
      - And add it on a new line after the code block you just inserted
+     - Use the tab key to indent the new code block by two spaces
  - Start the mobile app
    ```
    tns preview
@@ -221,7 +222,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      ```
      - Add
        ```
-       NativeScriptUIListViewModule ,
+       NativeScriptUIListViewModule,
        ```
  - Replace heroes.component.tns.html with
    ```   
