@@ -143,6 +143,32 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      <ActionItem text="Heroes" (tap)="heroes()"></ActionItem>
    </ActionBar>
    ```
+ - In app.component.tns.ts
+   - After this line
+     ```
+     import { Component } from '@angular/core';
+     ```
+     - Add
+       ```
+       import { Router } from '@angular/router';
+       ```
+   - After this line
+     ```
+     export class AppComponent {
+     ```
+     - Add
+       ```
+       constructor(private router: Router) {
+       }
+       
+       dashboard() {
+         this.router.navigateByUrl("/dashboard");
+       }
+       
+       heroes() {
+         this.router.navigateByUrl("/heroes");
+       }
+       ```
  - Start the mobile app
    ```
    tns preview
