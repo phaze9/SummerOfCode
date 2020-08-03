@@ -193,10 +193,27 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
    </StackLayout>
    ```
    
- ## Day 5:
+ ## Day 5: Mobile List of Heroes :scroll:
  - Install the NativeScript ListView from the terminal
    ```
    tns plugin add nativescript-ui-listview@rc
    ```
    - At the time of writing we need to use the release candidate (rc) version for compatibility with Angular 10
-  
+ - Edit app.module.tns.ts
+   - After this line
+     ```
+     import { NativeScriptModule } from '@nativescript/angular';
+     ```
+     - Add
+       ```
+       import { NativeScriptUIListViewModule } from "nativescript-ui-listview/angular";
+       ```
+   - After
+     ```
+     imports: [
+       NativeScriptModule,
+     ```
+     - Add
+       ```
+       NativeScriptUIListViewModule ,
+       ```
