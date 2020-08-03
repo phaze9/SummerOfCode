@@ -228,15 +228,32 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
    ```   
    <StackLayout>
      <Label text="My Heroes" class="h2"></Label>/>
-     <ListView items="{{heroes}}">
-       <ListView.itemTemplate>
+     <ListView [items]="heroes" (itemTap)="onSelectHero($event)">
+       <ng-template let-hero="item">
          <StackLayout orientation="horizontal">
-           <Button textAlignment="right" text="{{id}}" class="badge" nsRouterLink="/detail/{{id}}"></Button>
-           <Button textAlignment="left" text="{{name}}" nsRouterLink="/detail/{{id}}"></Button>  
+           <Label textAlignment="right" [text]="hero.id"></Label>
+           <Label textAlignment="left" [text]="hero.name"></Label>  
          </StackLayout>
-       </ListView.itemTemplate>
+       </ng-template>
      </ListView>
    </StackLayout>
    ```
+ - In heroes.component.ts
+   - Add the following imports
+     ```
+     import { Router } from '@angular/router';
+     import { ItemEventData } from '@nativescript/core/ui/list-view/list-view';
+     ```
+   - Change the constructor to
+     ```
+     constructor(private heroService: HeroService, private router: Router) { }
+     ```
+   - After the method getHeroes() add a new method
+     ```
+     onSelectHero(event: ItemEventData) {
+       const hero = this.heroes[event.index];
+       this.router.navigateByUrl("/detail/" + hero.id);
+     }
+     ```
  - Test your mobile app and verify that everything works like in the web version
  
