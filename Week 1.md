@@ -59,7 +59,7 @@ The terminal/shell is old but gold.
 ## Day 5: Sharpen your Tools :key:
 A tiny bit more setup work and you're good to go.  
  - Tell git who you are
-   - Enter the following commands in a Terminal window
+   - Enter the following commands in a Terminal window (On Windows: use the "Git Bash" window)
    - Replace First Last by your first and last names
      ```
      git config --global user.name "First Last"
@@ -77,10 +77,19 @@ A tiny bit more setup work and you're good to go.
    ```
    sudo npm install -g @angular/cli
    ```
+   - On Windows: open the PowerShell and type
+     ```
+     sudo npm install -g @angular/cli
+     ```
  - Verify the installation by listing the available Angular commands
    ```
     ng
    ```
+   - On Windows: you might need to use 
+     ```
+     npx ng
+     ``` 
+     in the PowerShell    
 
 ## Day 6: Angular Heroes :ok_woman:
 Angular is a great way to conquer the web.
