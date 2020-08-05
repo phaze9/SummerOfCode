@@ -261,7 +261,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
 
 ## Day 7: Building Blocks :bamboo:
 We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
- - Install the Mimo app on your phone or tablet https://getmimo.com
+ - Install the [Mimo app](https://getmimo.com) on your phone or tablet
  - Use these settings
    - Choose your personal motivation 
    - No coding experience
