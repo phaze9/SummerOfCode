@@ -40,7 +40,7 @@ The terminal/shell is old but gold.
     ```
   - on Windows: 
     - Open an Explorer window, navigate to your Projects directory, right-click on "SummerOfCode" and choose "Git Bash here"
-- Add the phaze9 version to your SummerOfCode repository AFF
+- Add the phaze9 version to your SummerOfCode repository
     ```
     git remote add upstream https://github.com/phaze9/SummerOfCode.git
     ```
