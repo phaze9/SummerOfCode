@@ -257,3 +257,19 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
      ```
  - Test your mobile app and verify that everything works like in the web version
  
+## Day 6: User Experience (UX) :heart_eyes:
+
+## Day 7: Building Blocks :bamboo:
+We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
+ - Install the Mimo app on your phone or tablet https://getmimo.com
+ - Use these settings
+   - Choose your personal motivation 
+   - No coding experience
+   - Web Development path
+   - Regular, 10 minutes per day
+   - Enable daily notification at a convenient time
+   - Create a profile
+   - Skip the free trial, we only need the basic features
+ - Work through the daily Mimo lesson
+   - Repeat daily until you complete the Web Development path
+   
