@@ -139,6 +139,7 @@ Publish your work on GitHub and run the tests.
  - Now open your [GitHub](https://www.github.com/) in the browser
    - Click on Repositories and look at the contents of your new private heroes repo
    - Read the instructions for your heroes app on GitHub
+ - Make sure you have the Chrome browser installed: [Chrome](https://www.google.com/chrome/)
  - Run the following commands in a Terminal and watch what they do
    - Always change to your application folder first
      ```
