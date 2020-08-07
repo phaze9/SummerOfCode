@@ -293,6 +293,11 @@ Your app should offer a consistent user experience which is optimized for web an
      margin-top: .2em;
      ```
      - On a new line before the closing curly bracket }
+   - In hero-detail.component.tns.html
+     - Add the following attribute for the id: and name: Labels
+       ```
+       class="m-x-15"
+       ```
  - Increase size of button text for the web app
    - In styles.scss before the following line
      ```
