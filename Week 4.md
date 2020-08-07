@@ -281,6 +281,17 @@ Your app should offer a consistent user experience which is optimized for web an
        font-size: 100%;
      }
      ```
+ - Adjust the padding for the hero detail page
+   - In hero-detail.component.scss after
+     ```
+     /* HeroDetailComponent's private CSS styles */
+     ```
+   - Add
+     ```
+     div {
+       padding-left: .2em;
+     }
+     ```
 
 ## Day 7: Building Blocks :bamboo:
 We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
