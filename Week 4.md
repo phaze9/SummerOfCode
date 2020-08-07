@@ -269,6 +269,7 @@ Your app should offer a consistent user experience which is optimized for web an
      ```
      textAlignment="center"
      ```
+     - Add it to the Label between class="h2" and >
  - Increase size of button text for the web app
    - In styles.scss before the following line
      ```
