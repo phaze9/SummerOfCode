@@ -270,6 +270,29 @@ Your app should offer a consistent user experience which is optimized for web an
      textAlignment="center"
      ```
      - Add it to the Label between class="h2" and >
+ - Run both the web and mobile apps
+   - Notice how the titles on all pages are now displayed the same
+ - Open the HERO Details page in your web browser
+   - Notice these layout issues
+     - id: and name: are too far to the left
+     - The hero name text field is displayed right below the label name:
+     - The buttons have very small text
+ - Adjust the padding for the hero detail page
+   - In hero-detail.component.scss after
+     ```
+     /* HeroDetailComponent's private CSS styles */
+     ```
+     - Add
+       ```
+       div {
+         padding-left: .2em;
+       }
+       ```
+   - Also in hero-detail.component.scss add the following for input { 
+     ```
+     margin-top: .2em;
+     ```
+     - On a new line before the closing curly bracket }
  - Increase size of button text for the web app
    - In styles.scss before the following line
      ```
@@ -279,17 +302,6 @@ Your app should offer a consistent user experience which is optimized for web an
      ```
      button {
        font-size: 100%;
-     }
-     ```
- - Adjust the padding for the hero detail page
-   - In hero-detail.component.scss after
-     ```
-     /* HeroDetailComponent's private CSS styles */
-     ```
-   - Add
-     ```
-     div {
-       padding-left: .2em;
      }
      ```
 
