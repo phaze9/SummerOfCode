@@ -309,6 +309,35 @@ Your app should offer a consistent user experience which is optimized for web an
        font-size: 100%;
      }
      ```
+ - Only show the back button for the hero details page in the mobile app
+   - In app.component.tns.ts
+   - Replace
+     ```
+     import { Router } from '@angular/router';
+     ```
+     - With
+       ```
+       import { RouterExtensions } from '@nativescript/angular/router';
+       ```
+   - Replace everything within
+     ```
+     export class AppComponent {
+       ...
+     }
+     ```
+     - With
+       ```
+       constructor(private routerExtensions: RouterExtensions) {
+       }
+       
+       dashboard() {
+         this.routerExtensions.navigateByUrl("/dashboard", { clearHistory: true });
+       }
+         
+       heroes() {
+         this.routerExtensions.navigateByUrl("/heroes", { clearHistory: true });
+       }
+       ```
 
 ## Day 7: Building Blocks :bamboo:
 We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
