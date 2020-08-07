@@ -182,7 +182,7 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
  - Replace the content of dashboard.component.tns.html with
    ```
    <StackLayout>
-     <Label text="Top Heroes" textAlignment="center" class="h3"></Label>/>
+     <Label text="Top Heroes" class="h3" textAlignment="center"></Label>/>
      <StackLayout orientation="horizontal">
        <Button *ngFor="let hero of heroes" textAlignment="center" class="h4" text="{{hero.name}}" nsRouterLink="/detail/{{hero.id}}"></Button>
      </StackLayout>
@@ -258,6 +258,17 @@ Our web app is quite nice, but we want our mobile app to feel like an app, not a
  - Test your mobile app and verify that everything works like in the web version
  
 ## Day 6: User Experience (UX) :heart_eyes:
+Your app should offer a consistent user experience which is optimized for web and mobile versions.
+ - Use consistent font sizes
+   - We use h1 for the app title and h2 for page titles
+   - Adjust dashboard.component.html to use the h2 style to display the title
+   - Adjust dashboard.component.tns.html to use the h2 style to display the title
+ - Alignment of the page title
+   - For the web app we will align titles left, the mobile app looks better with centered titles
+   - Add the following attribute to the first label in hero-detail.component.tns.html and heroes.component.tns.html
+     ```
+     textAlignment="center"
+     ```
 
 ## Day 7: Building Blocks :bamboo:
 We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
