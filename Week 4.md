@@ -338,6 +338,7 @@ Your app should offer a consistent user experience which is optimized for web an
          this.routerExtensions.navigateByUrl("/heroes", { clearHistory: true });
        }
        ```
+ - If you get stuck doing the changes to a file, revert your changes to this file in the Source Control tab and start fresh
  - Run the mobile app and observe the changes 
 
 ## Day 7: Building Blocks :bamboo:
