@@ -288,7 +288,7 @@ Your app should offer a consistent user experience which is optimized for web an
          padding-left: .2em;
        }
        ```
-   - Also in hero-detail.component.scss add the following for input { 
+   - Also in hero-detail.component.scss add the following for: input { 
      ```
      margin-top: .2em;
      ```
