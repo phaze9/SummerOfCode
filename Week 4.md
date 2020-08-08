@@ -338,6 +338,7 @@ Your app should offer a consistent user experience which is optimized for web an
          this.routerExtensions.navigateByUrl("/heroes", { clearHistory: true });
        }
        ```
+ - Run the mobile app and observe the changes 
 
 ## Day 7: Building Blocks :bamboo:
 We wrote a lot of code in the last weeks. Now's the time to learn more about its structure so you can write your own code.
