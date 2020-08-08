@@ -12,7 +12,3 @@ We can already edit our heroes, but any changes are immediately lost in the void
  - [Heroes and HTTP](https://angular.io/tutorial/toh-pt6#heroes-and-http)
    - Follow the instructions
    - Tomorrow we will continue with Update heroes
- - Run unit and e2e tests
-   - Fix any errors due to changed heroes
- - Run both your web and mobile apps
- 
