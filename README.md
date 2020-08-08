@@ -42,3 +42,6 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 6: User Experience (UX)](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md#day-6-user-experience-ux-heart_eyes) :heart_eyes:
  - [Day 7: Building Blocks](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md) :bamboo:
  
+## [Week 5: Server Side](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md) :vhs:
+ - [Day 1: Serve the heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md#day-1-serve-the-heroes-calling) :calling:
+ 
