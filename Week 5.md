@@ -1,6 +1,6 @@
 # Week 5: Server Side :vhs:
 
-## Day 1: Serve the heroes :calling:
+## Day 1: Read your Heroes :calling:
 We can already edit our heroes, but any changes are immediately lost in the void.
  - [Enable HTTP services](https://angular.io/tutorial/toh-pt6#enable-http-services)
    - Follow the instructions
@@ -13,7 +13,7 @@ We can already edit our heroes, but any changes are immediately lost in the void
    - Follow the instructions
    - Tomorrow we will continue with Update heroes
 
-## Day 2: Create, Update, Delete :cupid:
+## Day 2: Create, Update and Delete your Heroes :cupid:
 Starting today you can add your new heroes and dispose of old, weak ones.
  - Update heroes https://angular.io/tutorial/toh-pt6#update-heroes
  - Add a new hero https://angular.io/tutorial/toh-pt6#add-a-new-hero
