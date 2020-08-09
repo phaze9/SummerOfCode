@@ -12,3 +12,11 @@ We can already edit our heroes, but any changes are immediately lost in the void
  - [Heroes and HTTP](https://angular.io/tutorial/toh-pt6#heroes-and-http)
    - Follow the instructions
    - Tomorrow we will continue with Update heroes
+
+## Day 2: Create, Update, Delete :cupid:
+Starting today you can add your new heroes and dispose of old, weak ones.
+ - Update heroes https://angular.io/tutorial/toh-pt6#update-heroes
+ - Add a new hero https://angular.io/tutorial/toh-pt6#add-a-new-hero
+ - Delete a hero https://angular.io/tutorial/toh-pt6#delete-a-hero
+ - Run both your web and mobile apps
+ 
