@@ -43,5 +43,5 @@ If you get stuck: Ask Google, play around until it works, team up with a friend 
  - [Day 7: Building Blocks](https://github.com/phaze9/SummerOfCode/blob/master/Week%204.md) :bamboo:
  
 ## [Week 5: Server Side](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md) :vhs:
- - [Day 1: Serve the Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md#day-1-serve-the-heroes-calling) :calling:
- - [Day 2: Create, Update, Delete](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md#day-2-create-update-delete-cupid) :cupid:
+ - [Day 1: Read your Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md#day-1-read-your-heroes-calling) :calling:
+ - [Day 2: Create, Update and Delete your Heroes](https://github.com/phaze9/SummerOfCode/blob/master/Week%205.md#day-2-create-update-and-delete-your-heroes-cupid) :cupid:
