@@ -16,6 +16,13 @@ We can already edit our heroes, but any changes are immediately lost in the void
 ## Day 2: Create, Update and Delete your Heroes :cupid:
 Starting today you can add your new heroes and dispose of old, weak ones.
  - Update heroes https://angular.io/tutorial/toh-pt6#update-heroes
+   - Follow the instructions
+   - Clarification regarding hero-detail.component.html
+     - Add the button before the final \</div>
+   - At the end of hero-detail.component.tns.html, before \</StackLayout> add
+     ```
+     <Button text="Save" (tap)="save()"></Button>
+     ```
  - Add a new hero https://angular.io/tutorial/toh-pt6#add-a-new-hero
  - Delete a hero https://angular.io/tutorial/toh-pt6#delete-a-hero
  - Run both your web and mobile apps
