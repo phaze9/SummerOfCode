@@ -2,6 +2,8 @@
 
 ## Day 1: Read your Heroes :calling:
 We can already edit our heroes, but any changes are immediately lost in the void.
+ - Read the instructions and apply the changes carefully.
+   - Today we will only implement the first three parts.
  - [Enable HTTP services](https://angular.io/tutorial/toh-pt6#enable-http-services)
    - Follow the instructions
    - Perform the changes you did for app.module.ts on app.module.tns.ts as well
