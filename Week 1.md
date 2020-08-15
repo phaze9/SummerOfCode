@@ -77,15 +77,15 @@ A tiny bit more setup work and you're good to go.
    ```
    sudo npm install -g @angular/cli
    ```
-   - On Windows: open the PowerShell and type
+   - ***On Windows:*** *We always use the PowerShell instead of the Terminal.* Open the PowerShell and type
      ```
-     sudo npm install -g @angular/cli
+     npm install -g @angular/cli
      ```
  - Verify the installation by listing the available Angular commands
    ```
     ng
    ```
-   - On Windows: you might need to use 
+   - ***On Windows:*** *You always have to prefix the "ng" command with "npx".* So you have to type: 
      ```
      npx ng
      ``` 
