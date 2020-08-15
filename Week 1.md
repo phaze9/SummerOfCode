@@ -38,7 +38,7 @@ The terminal/shell is old but gold.
     ```
     cd ~/Projects/SummerOfCode
     ```
-  - on Windows: 
+  - ***on Windows:***
     - Open an Explorer window, navigate to your Projects directory, right-click on "SummerOfCode" and choose "Git Bash here"
 - Add the phaze9 version to your SummerOfCode repository AFF
     ```
